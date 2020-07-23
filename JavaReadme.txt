@@ -1,3 +1,4 @@
+PS：这个文档会不定期更新
 PS：首先是运行问题，windows的terminal只认识GBK字符，而Java采用的是Unicode编码方式(Unicode编码了所有语言)
 要想javac正常的带中文字符的文件需要执行下面的命令：
   javac -encoding utf-8 文件名（因为实际开发中的Unicode编码为utf-8）
