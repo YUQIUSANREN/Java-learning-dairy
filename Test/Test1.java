@@ -68,7 +68,7 @@ class bianliang{
 
 	public static void dosome(){
 		int i;//此时的i虽然和上面在同一个类体中，但不在同一个方法体，所以不冲突。
-		//注意此时可编译但输出无效
+		//注意此时不是程序入口，只是一个方法，当调用此方法时才会输出结果
 		i = 50;
 		System.out.println(i);
 		System.out.println(k);//此处编译k的输出则可以编译通过
