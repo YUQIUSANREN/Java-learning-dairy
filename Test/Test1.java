@@ -41,6 +41,8 @@ class bianliang{
 	//k属于成员变量
 
 	static int m;//直接定义了m且未赋值，具体事件看main方法中的m输出解释
+	//学对象后的补充说明：
+	//这里两个成员变量之所以可以下static方法中使用，是因为变量也是static变量，不加static只能进行引用来实现效果
 
 	public static void main(String[] args){
 		int i = 10;//i属于局部变量
